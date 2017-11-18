@@ -1,0 +1,194 @@
+/*  Form
+------------------------------------------------------------------*/
+form {
+	width: 100%;
+}
+
+/*  noi dung form
+------------------------------------------------------------------*/
+fieldset {
+	padding: 10px 25px 0px 25px;
+	background: #fefeaa;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	width: 650px;
+
+}
+
+/*  tieu de form
+------------------------------------------------------------------*/
+legend {
+	text-indent: -9999px;
+	background: url(images/icon.png) no-repeat;
+	background-position: -237px -266px;
+	width: 508px;
+	height: 38px;
+}
+
+/*  label & input
+------------------------------------------------------------------*/
+div {
+	margin: 0px 0px 15px 0px;
+	/*font-size: 1.2em;*/
+}
+/*  div.firts
+------------------------------------------------------------------*/
+.firts {
+	padding-top: 10px;
+}
+
+/*  label
+------------------------------------------------------------------*/
+label {
+	width: 150px;
+	display: block;
+	float: left;
+	clear: left;
+	line-height: 30px;
+}
+
+/*  Agree
+------------------------------------------------------------------*/
+label.agree {
+	float: none;
+	width: auto;
+	margin-left: 170px;
+	margin-top: -16px;
+	padding-bottom: 8px;
+}
+input.agree {
+	float: none;
+	display: block;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+/*  Gioi tinh
+------------------------------------------------------------------*/
+.gioitinh, .gioitinh label, .birthday label {
+	float: none;
+	width: auto;
+	display: inline;
+}
+.gioitinh {
+	/*display: block;*/
+	margin-left: 150px;
+	/*padding-bottom: 5px;*/
+}
+
+/*  dau sao
+------------------------------------------------------------------*/
+span {
+	color: red;
+}
+
+/*  Input
+------------------------------------------------------------------*/
+.register input {
+	overflow: hidden;
+	background: url(images/icon.png) no-repeat;
+	background-position: -1px -211px;
+	width: 373px;
+	border: 0;
+	color: #aeaeae;
+	height: 33px;
+	outline: 0;
+	text-shadow: 0 0 1px #fff;
+	zoom: 1;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*Hover_Input*/
+.register input:focus {
+	border: #63BDFD 1px solid !important;
+	box-shadow: 0 0 5px #92C1E3 !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	-webkit-box-shadow: 0 0 3px #92C1E3 !important;
+	-moz-box-shadow: 0 0 3px #92C1E3 !important;
+	transition: all 0.25s ease-in-out !important;
+	-webkit-transition: all 0.25s ease-in-out !important;
+	-moz-transition: all 0.25s ease-in-out !important;
+}
+
+/*  check cho Gioitinh, Agree
+------------------------------------------------------------------*/
+input.gt, input.agree {
+	width: auto;
+	height: auto;
+}
+
+/*  Namsinh
+------------------------------------------------------------------*/
+input.namsinh {
+	width: 110px;
+	background-position: -320px -364px;
+}
+
+/*  Submit
+------------------------------------------------------------------*/
+input.button {
+	background-position: -303px -89px;
+	width: 175px;
+	height: 45px;
+	text-indent: -99999px;
+	cursor: pointer;
+	margin-left: 150px;
+	margin-top: 15px;
+}
+
+/* ngaysinh, thangsinh
+------------------------------------------------------------------*/
+.register select.ngay, .thang, .job {
+	width: 105px;
+	height: 30px;
+	/*background: url(images/select.jpg) no-repeat right #FFF;*/
+	border: 1px solid #ccc;
+	/*-webkit-appearance: none;
+	-moz-appearance: none;
+	-khtml-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+.register select.ngay, .thang {
+	margin-right: 22px;
+}
+
+/* Captcha
+------------------------------------------------------------------*/
+.register div.capcha {
+	position: relative;
+}
+.register input.capcha {
+	position: absolute;
+	width: 183px;
+	background-position: -1px -251px;
+	margin-top: -1px;
+	margin-left: 5px;
+}
+
+/* Notes
+------------------------------------------------------------------*/
+span.succes {
+	color: green;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	/*font-size: 12px;*/
+}
+span.warning {
+	display: block;
+	color: red;
+	font-style: italic;
+	/*font-size: 11px;*/
+	/*margin-left: 155px;*/
+	padding-top: 10px;
+}

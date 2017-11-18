@@ -1,0 +1,97 @@
+.product_detail {
+	margin-top: 30px;
+	padding-left: 25px;
+}
+.product_detail_1 {
+	float: left;
+}
+.product_detial_img {
+	text-align: center;
+}
+.product_detail_2
+{
+	line-height:22px;
+	text-decoration:none;
+    font-size: 13px;     
+}
+.product_detai_title {
+	text-decoration: none;
+	color: #0975d1;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.product_detai_title h1 {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 35px;
+}
+.product_detail_thong_tin_khac {
+	border-top: dashed 1px #21ACFD;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.product_detail_thong_tin_khac_1 {
+	float: left;
+	width: 200px;
+}
+.product_detail_thong_tin_khac_2 {
+	float: left;
+	width: 118px;
+	line-height: 30px;
+}
+.product_detai_tac_gia h2, .product_detai_nha_xuat_ban h2 {
+	text-decoration: none;
+	color: #000000;
+	font-size: 13px;
+}
+.product_detai_tac_gia h2 span, .product_detai_nha_xuat_ban h2 span {
+	color: #21ACFD;
+}
+.product_detai_dmuc span {
+	color: green;
+}
+.chi_tiet_thong_tin_sp_header {
+color: #2a87d7;
+text-transform: uppercase;
+border-bottom: solid 1px #e7e7e7;
+font-weight: bold;
+margin-top: 10px;
+font-size: 14px;
+padding-bottom: 5px;
+}
+.font_size_14 {
+font-size: 14px;
+}
+.chi_tiet_thong_tin_sp_content {
+padding: 10px 10px 0px 5px;
+line-height: 18px;
+}
+.bt_dat_truoc_san_pham {
+	background: url("./images/back.png") no-repeat;
+	width: 138px;
+	height: 26px;
+	border: none;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+input.sl {
+	width: 35px;
+}
+.product_thong_tin li .tr_gia_giam, .giam_gia {
+	color: #C76200;
+	font-weight: bold;
+}
+.product_thong_tin li .gia_bia_ban, .gia_ban {
+	color: #39B5FD;
+	font-weight: bold;
+}
+.product_thong_tin li .gia_bia_index, .gia_bia {
+	font-weight: bold;
+	color: #999;
+	text-decoration: line-through;
+}
+.gachduoi {
+	border-top: dashed 1px #21ACFD;
+	margin-top: 138px;
+}

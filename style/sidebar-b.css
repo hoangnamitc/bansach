@@ -1,0 +1,42 @@
+* {padding: 0; margin: 0}
+img {border:0;}
+fieldset {
+	width: 670px;
+	background-color: #D9EDDC;
+	border: 1px solid #ccc;
+	padding: 5px 8px;
+	margin-top: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+label {
+	color: #333333;
+	font-weight: bold;
+}
+div {
+	/*display: inline-block !important;*/
+}
+input {
+	border:auto;
+}
+input[type="submit"],[type="button"] {
+	padding: 5px;
+	margin-top: 8px;
+}
+input[type="text"],[type="password"] {
+	width: 195px;
+	border: solid 1px #727272;
+	color: #727272;
+	float: left;
+	height: 25px;
+	font-size: 15px;
+}
+
+.sidebar-b div {
+	line-height: 30px;
+}
+a.forgetpass {
+	color: #1B44EB;
+}

@@ -1,0 +1,426 @@
+* {margin: 0; padding: 0}
+thead, tr:nth-of-type(even) {
+	background: #FDEADB;
+}
+/* Toàn trang
+######################################################################*/
+body {
+	background: url(images/background.jpg) repeat-y scroll center top #E0E0E0;
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	color: #000;
+}
+
+/* THIET LAP TONG QUAN
+######################################################################*/
+a {color: #035389; text-decoration: none;cursor: pointer;}
+a:hover {text-decoration: underline; color: #649805;}
+ul, li {list-style: none; }
+img {border: none; }
+p, label, a {line-height: 1.5; font-size: 13px; font-family:'lucida grande',tahoma,verdana,arial,sans-serif； }
+h2 a, h2{ margin: 0; font-size: 19px; font-family: museo, georgia, san-serif;}
+
+/* Wrapper
+######################################################################*/
+#wrapper {
+	background-color: #FFFFFF;
+	width: 990px;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 0 0 30px #111111;
+	-moz-box-shadow: 0 0 30px #111111;
+	-o-box-shadow: 0 0 30px #111111;
+	-webkit-box-shadow: 0 0 30px #111111;
+	
+}
+
+/* Banner
+----------------------------------------------------------------------*/
+.banner {
+	width: 100%;
+	background: url(images/banner.gif) no-repeat;
+	height: 135px;
+	background-size: contain;
+}
+
+/* Menu
+######################################################################*/
+.menu {
+	width: 99%;
+	margin: 0 auto;
+	padding: 5px;
+	height: 30px;
+	background: url(./images/bg-mn.png) repeat-x;
+	clear: both;
+	border-left-width: 0;
+	border-right-width: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 730px;
+	float: left;
+}
+.menu li {
+	float: left;
+}
+.menu li:active a {
+	background: url(./images/mn-selected.png) repeat-x;
+	border-top-left-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-khtml-border-top-right-radius: 4px;
+	font-weight: bold;
+	color: rgb(204, 79, 67);
+}
+.menu a {
+	cursor: pointer;
+	height: 25px;
+	line-height: 26px;
+	display: inline-block;
+	padding: 2px 0.8em;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	border-right: 2px solid #FFFFFF;
+}
+/*-- Hover Menu --*/
+.menu li:hover {
+	background: url(./images/bg-mn-hover.png) repeat-x;
+	border-top-left-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-khtml-border-top-right-radius: 4px;
+}
+/*-- Hover Menu --*/
+.menu li {
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-khtml-transition-duration: 0.5s;
+}
+
+/* Sidebar-a
+######################################################################*/
+.sidebar-a {
+	width: 190px;
+	float: left;
+	padding: 0 10px 0 5px;
+}
+.sidebar-a ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #fff;
+}
+.sidebar-a ul li {
+	background: url(./images/mui_ten.png) no-repeat 5px 15px;
+	border: 1px solid #ededed;
+	padding: 0px 8px;
+	line-height: 34px;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-khtml-transition-duration: 0.5s;
+}
+.sidebar-a ul li a {
+	margin-left: 8px;
+	color: #000;
+}
+.sidebar-a ul li:hover a{
+	margin-left: 15px;
+}
+.sidebar-a li:hover a {
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.sidebar-a a {
+	text-decoration: none;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-khtml-transition-duration: 0.5s;
+}
+/* Sidebar-b
+----------------------------------------------------------------------*/
+.sidebar-b {
+	width: 221px;
+	float: left;
+	padding: 0 10px 0 5px;
+}
+
+/* H3
+######################################################################*/
+h3 {
+	border: 1px solid #ededed;
+	text-align: center;
+	background: url(./images/bg-dm.png) repeat-x;
+	padding: 8px 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 3px;
+	color: #FFFFFF;
+}
+
+/* Noi dung
+######################################################################*/
+.noidung {
+	float: left;
+	width: 775px;
+	padding-bottom: 20px;
+}
+
+/* Slide img
+######################################################################*/
+.slide img {
+	margin: 5px 10px;
+}
+
+/* Quang cao
+######################################################################*/
+.qc {
+	margin-top: -308px;
+	margin-left: 575px;
+	padding-bottom: 20px;
+}
+.qc img {
+	display: block;
+	margin-top: 5px;
+}
+
+/* Footer
+######################################################################*/
+#footer {
+	padding-top: 30px;
+}
+table.footer {
+	font-size: 13px;
+	width: 100%;
+	border: 1px solid #999999 !important;
+	border-bottom-width: 0;
+	background-color: #FFFFFF;
+	padding: 2px 0 2px 0;
+	border-collapse: collapse;
+}
+table.footer a {
+	margin-left: 20px;
+	color: #262626;
+}
+table.footer tr {
+	border: 1px solid #999999 !important;
+	padding: 20px;
+}
+table.footer td {
+	padding: 10px;
+}
+tr.conten {
+	background-color: #FFFFFF !important;
+}
+tr.hendo {
+	background-color: #dfdede !important;
+	border: 1px solid #999999 !important;
+}
+/******* FORM **********/
+legend {color:#000; background-color: #FFCBA0; padding: 3px 23px; border-radius: 5px;}
+fieldset {border:1px solid #FFCBA0; margin: 10px 0px;padding: 10px; border-radius: 5px;}
+fieldset div {margin: 10px 0px;}
+label {display: block;width:30em; font-weight: bold;margin: 0px 15px 5px 0px;}
+textarea {border:1px solid #ccc; height: 400px; padding: 5px}
+input[type="text"],[type="submit"] {padding: 3px; width: 200px;}
+
+/* Bat loi */
+.error {font-weight: bold;color: #C00; text-align: center;}
+.success {font-weight: bold;color: green; text-align: center;}
+.warning {font-size: 11px; color: #c00; text-align: center;}
+.required {color: #c00;}
+.selected {font-weight: bold;}
+.avatar { width: 60px; height: 60px;float: left;margin: 0 25px 0px 0px; border:1px solid #c1c1c1; padding: 3px; background-color: white;}
+.not-avai {color: red;}
+.avai {color: green; font-weight:  bold;}
+.avatar { width: 60px; height: 60px;float: left;margin: 0 25px 0px 0px; border:1px solid #c1c1c1; padding: 3px; background-color: white;}
+input.change {width: 100px;}
+
+/* TABLE
+######################################################################*/
+table {
+	background-color: #FBD3C0;
+	border-style: solid;
+	border-color: #FFF;
+	border-collapse: collapse;
+}
+caption {
+	color: red;
+	padding-top: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+table th {
+	background-color: #0099FF;
+	color: #FFF;
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px;
+	border-bottom-width: 3px;
+}
+.xoa a {
+	color: red;
+}
+.sua a {
+	color: blue;
+}
+.xem a {
+	color: #008FFF;
+}
+table tr td {
+	border: 1px;
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 2px;
+	padding: 8px;
+}
+/* PHAN TRANG
+######################################################################*/
+.paginate {
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 3px;
+	margin: 3px;
+	display: inline-block;
+}
+.paginate a {
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	border:1px solid #999;
+	text-decoration:none;
+	color: #666;
+}
+.paginate a:hover, .paginate a:active {
+	border: 1px solid #999;
+	color: #000;
+}
+.paginate span.current {
+	margin: 2px;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #999;
+	
+	font-weight: bold;
+	background-color: #999;
+	color: #FFF;
+}
+.paginate span.disabled {
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	border:1px solid #eee;
+	color:#DDD;
+}
+.lista {
+	font-family: tahoma;
+	font-size: 11px;
+	position: absolute;
+	background-color: rgb(197, 195, 195);
+	margin: 10px 40px;
+}
+.lista a {
+	color: red;
+}
+span.page_next {
+	position: absolute;
+	background: url("./images/bgr_simple_paging_next.png") no-repeat scroll left top transparent;
+	height: 24px;
+	width: 55px;
+	right: -65px;
+	top: -3px;
+	text-decoration: none;
+}
+	
+.d_form_search {
+	margin-right: -3px;
+	margin-top: -6px;
+	background-color: #D9EDDC;
+	padding: 0 2px;
+	padding-left: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+.d_form_search input[type="submit"] {
+	background: url("./images/tr_bt_search.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	top: 3px;
+	right: 0px;
+	text-indent: -999px;
+}
+.d_form_search input[type="text"] {
+	width: 163px;
+	height: 27px;
+	font-size: 18px;
+	-webkit-appearance: textfield;
+	padding: 1px;
+	background-color: white;
+	border: 2px inset;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+.d_form_search h2 {
+	text-align: center;
+	-webkit-margin-after: 0.1em;
+	color: #FF00EB;
+}
+/* THÔNG TIN GIỎ HÀNG
+######################################################################*/
+table.thong_tin_cart {
+	margin: 10px 0 0 0;
+	clear: both;
+	border: 1px solid #e0e0e0;
+	border-collapse: collapse;
+}
+table.thong_tin_cart tr td {
+	border-style: none !important;
+	border-bottom: 1px dashed #e0e0e0 !important;
+	border-left: 1px solid #e0e0e0 !important;
+}
+tr.le th {
+	color:#000;
+	border: none;
+}
+tr.nd-1 {
+	background: #fff;
+}
+tr.nd-1:hover {
+	background-color: #E1FDCA;
+}
+tr.nd-1 td {
+	padding: 9px 15px;
+}
+table.thong_tin_cart th {
+	background: url(images/bg-th.png) repeat-x center top;
+	padding: 5px 9px;
+	text-align: center!important;
+	font-size: 12px;
+	font-weight: bold;
+}
